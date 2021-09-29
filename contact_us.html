@@ -26,7 +26,7 @@
 			}
 			
 			.description{
-				padding: 75px 150px;
+				padding: 25px 150px;
 				background-color: #E3E3E3;
 				font-size: 20px;
 				font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
@@ -82,6 +82,41 @@
 				color: #99ccff;
 				text-shadow: 2px 2px 1px #fff;
 			}
+			.column {
+			  float: left;
+			  width: 50%;
+			  padding: 10px;
+			  height: 300px; 
+			}
+
+			.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			  
+			}
+			
+			@media screen and (max-width: 600px) {
+			.column {
+			width: 100%;
+			}
+			}
+
+			.map-responsive{
+				overflow:hidden;
+				padding-bottom:56.25%;
+				position:relative;
+				height:0;
+			}
+
+			.map-responsive iframe{
+				left:0;
+				top:0;
+				height:100%;
+				width:100%;
+				position:absolute;
+
+			}
 		</style>
 		
 	</head>
@@ -120,12 +155,12 @@
 				</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="about_us.html">About</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about_us.html">About Us</a></li>
 					<li><a href="#">Vitamins</a></li>
 					<li><a href="#">Symptoms</a></li>
 					<li><a href="#">Forum</a></li>
-					<li><a href="contact_us.html">Contact</a></li>
+					<li class="active"><a href="contact_us.html">Contact</a></li>
 			  	
 			  	</ul>
 			 	 
@@ -136,25 +171,25 @@
 		
 				
 		<div class="description" style="text-align: center">
-			<p>Welcome to Vitaminz+! </p>
+			<p>Contact Us</p>
 			
 		</div>
 		<div class="body1">
-			<p>Vitamins are chemical molecules that are required in little amounts by humans. Having insufficient amounts of any vitamin can increase the chance of acquiring certain health problems. The majority of vitamins must be obtained from food because the body either does not create them or generates just a little amount.</p>
+		<div class="row">
+			<div class="column">
+			<h2> VitaminZ+ Headquarter </h2>
+			<br />
+			<p><img src="location_icon.png" alt="location icon" width="20" height="20"> 4400 University Dr, Fairfax, Va 22030</img></p>
+			<p><img src="email_icon.png" alt="email icon" width="20" height="20"> vitaminzplus@gmail.com</img></p>
+			<p><img src="phone_icon.png" alt="phone icon" width="20" height="20"> 703-993-1000</img></p>
+			</div>
+			<div class="column">
+			<div class="map-responsive">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.1154842435826!2d-77.30954928552545!3d38.829815958531626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64e607b427ebd%3A0xd766a653e6557544!2sGeorge%20Mason%20University!5e0!3m2!1sen!2sus!4v1632939089714!5m2!1sen!2sus" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+			</div>
+			</div>
 		</div>
-		<div class="body2">
-				Our Vitaminz+ Website will focus on these 6 vitamins and their deficiencies:
-				<ul>
-					<li>Vitamin A</li>
-					<li>Vitamin B12</li>
-					<li>Vitamin C</li>
-					<li>Vitamin D</li>
-					<li>Vitamin E</li>
-					<li>Vitamin K</li>
-				</ul>
-			
-		</div>
-		<br />
 		<br />
 		
 		<div class="footer">
