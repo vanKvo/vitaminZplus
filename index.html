@@ -12,6 +12,7 @@
 			body{
 				background-color: lightgray;
 				margin: 0px;
+				font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 			}
 			.topHeader{
 				width: 100%;
@@ -19,24 +20,37 @@
 				background-color: #99ccff;
 				text-align: center;
 				padding-top: 10px;
-				font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 			}
 			nav{
 				background-color: white;
-				font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 			}
 			
 			.description{
 				padding: 75px 150px;
 				background-color: #E3E3E3;
 				font-size: 20px;
-				font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 			}
 			.footer{
 				background-color: #99ccff;
 				height: auto;
 				display: block;
 				padding: 10px 50px;
+			}
+			.footerNavLinks{
+				text-align: center;
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+			.footerNavLinks p{
+				font-size: 13px;
+			}
+			.footerNavLinks a{
+				text-decoration: none;
+				color: black;
+				font-size: 15px;
+			}
+			.footerNavLinks a:hover{
+				color: #E3E3E3;
 			}
 			.icon-bar{
 				background-color: #99ccff;
@@ -55,13 +69,16 @@
 			.body1{
 				background-color: #F9F9F9;
 				height: auto;
-				padding: 30px 100px;
+				padding: 60px 100px;
+				text-align: center;
+				font-size: 20px;
 			}
 			.body2{
 				margin-top: 50px;
 				margin-bottom: 50px;
 				padding-left: 100px;
 				padding-right: 100px;
+				text-align: center;
 			}
 			h3{
 				text-align: center;
@@ -126,31 +143,37 @@
 		
 				
 		<div class="description" style="text-align: center">
-			<p>Welcome to Vitaminz+! </p>
-			
+			<h1>Welcome to Vitaminz+! </h1><br/>
+	    	<img src="images/vitaminzpluslogo.png" alt="Logo" width="100">
 		</div>
 		<div class="body1">
 			<p>Vitamins are chemical molecules that are required in little amounts by humans. Having insufficient amounts of any vitamin can increase the chance of acquiring certain health problems. The majority of vitamins must be obtained from food because the body either does not create them or generates just a little amount.</p>
+			
 		</div>
 		<div class="body2">
-				Our Vitaminz+ Website will focus on these 6 vitamins and their deficiencies:
-				<ul>
-					<li>Vitamin A</li>
-					<li>Vitamin B12</li>
-					<li>Vitamin C</li>
-					<li>Vitamin D</li>
-					<li>Vitamin E</li>
-					<li>Vitamin K</li>
-				</ul>
+			Our Vitaminz+ Website will focus on these 6 vitamins and their deficiencies:
+			<br /><br />
+			<img src="images/homepagePic.jpg" width="700"  alt=""/> 
 			
 		</div>
 		<br />
 		<br />
 		
 		<div class="footer">
-			<p style="text-align: right">&copy;Copyrighted2021 | September 24, 2021 - Vitaminz+</p>
-			<br/>
-			<p style="text-align: center">This is a ficticious website created for a class project.</p>
+			<div class="footerNavLinks">
+				<p>
+					<a href="index.html">Home</a> &nbsp; | &nbsp; 
+					<a href="about_us.html">About</a> &nbsp; | &nbsp; 
+					<a href="#">Vitamins</a> &nbsp; | &nbsp; 
+					<a href="contact_us.html">Contact</a> &nbsp; | &nbsp; 
+				</p>
+				<img src="images/location_icon.png" alt="location icon" width="20" height="20">
+				<img src="images/email_icon.png" alt="email icon" width="20" height="20">
+				<img src="images/phone_icon.png" alt="phone icon" width="20" height="20">
+			</div>
+			
+			<p style="text-align: center; font-size: 12px;">&copy;Copyrighted2021 | September 24, 2021 - Vitaminz+ |
+				This is a ficticious website created for a class project.</p>
 		</div>
-</body>
+	</body>
 </html>
