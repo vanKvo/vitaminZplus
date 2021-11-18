@@ -1,4 +1,5 @@
 <?php
+//echo 'dbconection.php file';
   $dsn = 'mysql:host=localhost;dbname=vitaminZ';
   $username = 'root';
   $password = 'root';

@@ -8,7 +8,7 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 		
-		<link rel="stylesheet" href="../../../style.css" type="text/css">
+		<link rel="stylesheet" href="../../style.css" type="text/css">
 
 	</head>
 
@@ -33,16 +33,16 @@
 		
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="../index.html"><img src="../../../images/vitaminzpluslogo.png" alt="Logo" width="70" style="padding: 0px 5px;"></a>
+				<a class="navbar-brand" href="../index.html"><img src="../../images/vitaminzpluslogo.png" alt="Logo" width="70" style="padding: 0px 5px;"></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-link" aria-current="page" href="../../../index.html">Home</a>
-						<a class="nav-link active" href="../index.php">Forum</a>
+						<a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+						<a class="nav-link active" href="index.php">Forum</a>
 						<a class="nav-link" href="#">User Profile</a>
-						<a class="nav-link" href="../../index.php">Logout</a>
+						<a class="nav-link" href="../index.php">Logout</a>
 					</div>
 				</div>
 			</div>

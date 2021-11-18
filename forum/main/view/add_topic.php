@@ -1,14 +1,14 @@
-<?php include('view/header.php'); 
-  echo 'add_topic.php file';
+<?php include('header.php'); 
+  //echo 'add_topic.php file';
 ?>	
 		<div class="body1">
 			<div class="row">
 				<form action="save_topic.php" method="post">
-					<h4><i class="icon-plus-sign icon-large"></i> Add Topic</h4>
+					<h4><i class="icon-plus-sign icon-large"></i> Create Thread</h4>
 					<hr>
 					<div id="add-topic">
 						<div class="mb-3 textbox-maxwidth">
-							<label for="topic_desc" class="form-label">Topic Description:</label>
+							<label for="topic_desc" class="form-label">Description:</label>
 							<input type="text" class="form-control" name="topic_desc" Required>
 						</div>
 					</div>
@@ -20,4 +20,4 @@
 			</div>
 		</div>
 		<br />
-<?php include('view/footer.php'); ?>
+<?php include('footer.php'); ?>
