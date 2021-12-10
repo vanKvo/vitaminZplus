@@ -18,7 +18,7 @@ CREATE TABLE user (
 
 CREATE TABLE topic (
    topic_id INT NOT NULL AUTO_INCREMENT,
-   topic_desc VARCHAR(100),
+   topic_desc TEXT,
    date_created TIMESTAMP DEFAULT current_timestamp,
    user_id int,
    PRIMARY KEY (topic_id),
